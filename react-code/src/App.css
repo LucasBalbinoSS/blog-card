@@ -1,0 +1,22 @@
+:root {
+  --yellow: #f4d04e;
+  --white: #fff;
+  --gray-700: #808080;
+  --black: #121212f1;
+
+  --text-sm: 15px;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: Figtree;
+  font-weight: 300;
+  padding: 25px;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
